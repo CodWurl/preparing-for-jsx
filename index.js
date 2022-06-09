@@ -1,0 +1,68 @@
+// Create a function called greeting using es5 function declaration syntax
+// (using the function keyword)
+// No parameters
+// this function should return "hello declaration"
+
+
+// Create a function called greeting2 using es5 function expression syntax
+// (using the function keyword)
+// No parameters
+// this function should return "hello expression"
+
+
+// Create a function called greeting3 using es6 arrow function syntax
+// No parameters
+// this function should return "hello arrow"
+
+
+// Create a function called greeting4 using es6 arrow function syntax
+// (using shortened syntax - one parameter, no parentheses)
+// One parameter should be accepted and returned
+
+
+// Create a function called greeting5 using es6 arrow function syntax
+// (Standard arrow syntax, two parameters)
+// Return both parameters in an array [param1, param2]
+
+
+// Create a function called greeting6 using es6 arrow function syntax
+// (This will take two paremters, greeting and personName)
+// Change greeting to uppercase and return greeting + personName
+
+
+// Convert this to an arrow function
+const greeting7 = function() {
+	return "hello";
+}
+
+// Create a function called greeting8 using es6 arrow function syntax
+// (This will take two parameters, greeting and personName)
+// Use string interpolation `` to return "greeting, personName" -> replace greeting and personName with parameter values
+
+
+
+// Create a function called greeting9 using es6 arrow function syntax
+// This takes an array called weekDays as a parameter
+/*
+// This is what weekDays looks like
+
+const weekDays = ["monday", "tuesday", "wednesday", "thursday", "friday"];
+
+*/
+// Use the .map method to return a new weekDays array, but all uppercase
+
+
+
+
+// Don't touch this section
+export default {
+	greeting,
+	greeting2,
+	greeting3,
+	greeting4,
+	greeting5,
+	greeting6,
+	greeting7,
+	greeting8,
+	greeting9
+}
