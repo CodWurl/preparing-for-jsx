@@ -55,9 +55,6 @@ const weekDays = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 
 // Don't touch this section
-
-console.log(typeof greeting)
-
 export default {
 	greeting: typeof greeting !== 'undefined' ? greeting : () => null,
 	greeting2: typeof greeting2 !== 'undefined' ? greeting2 : () => null,
