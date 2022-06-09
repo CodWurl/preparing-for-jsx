@@ -55,14 +55,17 @@ const weekDays = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 
 // Don't touch this section
+
+console.log(typeof greeting)
+
 export default {
-	greeting,
-	greeting2,
-	greeting3,
-	greeting4,
-	greeting5,
-	greeting6,
-	greeting7,
-	greeting8,
-	greeting9
+	greeting: typeof greeting !== 'undefined' ? greeting : () => null,
+	greeting2: typeof greeting2 !== 'undefined' ? greeting2 : () => null,
+	greeting3: typeof greeting3 !== 'undefined' ? greeting3 : () => null,
+	greeting4: typeof greeting4 !== 'undefined' ? greeting4 : () => null,
+	greeting5: typeof greeting5 !== 'undefined' ? greeting5 : () => null,
+	greeting6: typeof greeting6 !== 'undefined' ? greeting6 : () => null,
+	greeting7: typeof greeting7 !== 'undefined' ? greeting7 : () => null,
+	greeting8: typeof greeting8 !== 'undefined' ? greeting8 : () => null,
+	greeting9: typeof greeting9 !== 'undefined' ? greeting9 : () => null,
 }
