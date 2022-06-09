@@ -14,3 +14,10 @@ Run the following to test your code
 ```bash
 npm run test
 ```
+
+## Stuck?
+Checkout the answer branch to see the answers
+
+```bash
+git checkout answer
+```
